@@ -1,0 +1,363 @@
+
+@font-face {
+    font-family: 'romantically_free_for_persoRg';
+    src: url('romantically-webfont.woff2') format('woff2'),
+         url('romantically-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700');
+
+/* ----- BACKGROUND ---- */
+
+body{
+	background-image:linear-gradient(black, #053E47);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+h3{
+	  font-family: 'Romantically';
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ------------- icons ------------------ */
+
+.icon--menu {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+.icon--menu li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.page--content h3 {
+  position: absolute;
+  left: 35vw;
+  font-size: 2.5em;
+}
+
+.speach--button img {
+    position: absolute;
+    top: 100em;
+    left: 40em;
+}
+
+.speach--button a {
+    position: absolute;
+    top: 100em;
+    left: 47em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: #B22D47;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.speach--button li {
+  list-style-type: none;
+}
+
+.page__home{
+	justify-content: center;
+	display: flex;
+}
+
+.list_home{
+	display: flex;
+	width: auto;
+	justify-content: center;
+	text-align: center;
+	list-style: none;
+}
+
+.list_home li {
+	padding: 3vw;
+}
+
+.list_home h2 {
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+.presentation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.page--content img{
+	width: auto;
+	padding: 10vh;
+
+}
+
+
+.page--content p {
+	font-size: 0.7em;
+}
+
+/* ---------- my work ------------- */
+
+.title--mywork h3 {
+  font-family: 'Romantically';
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.mywork--jpg {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.print,
+.web {
+  padding: 90px;
+}
+
+.print p,
+.web p {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  font-size: 1.4em;
+  position: absolute;
+  top: 21em;
+}
+
+.print p {
+  left: 21em;
+}
+
+.web p {
+ right: 21.5em;
+}
+
+/* ---------- contact ------------- */
+
+.contact {
+  padding: 10em;
+}
+
+.contact p {
+  color: #84102C;
+  display: flex;
+  justify-content: center;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-bottom: 20vh;
+}
+
+/* ---------  PRINT ----------- */
+
+.print--section_1,
+.print--section_2,
+.print--section_3 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.trombinoscope img {
+  padding: 2.5em;
+}
+
+/* ------------------- style page oeuvre ------------- */
+.skills {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul {
+  display: flex;
+}
+
+.skills li {
+  list-style-type: none;
+  padding: 30px;
+  font-size: 8px;
+  letter-spacing: 0.3em;
+}
+
+.wrap-oeuvre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrap-oeuvre img {
+  padding: 30px;
+}
+/* ----------- footer ------------- */
+
+footer {
+  background-color: black;
+  width: 100%;
+  font-size: 9px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+
+.wrap-foot {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: auto;
+  flex-flow: row wrap;
+}
+
+.wrap-foot > * {
+  padding-bottom: 10px;
+}
+
+.icon--footer,
+.nav--foot,
+.infos {
+  flex: 1;
+  text-align: center;
+}
+
+.copyr {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/* ------------- menu mobile ------------------ */
+#display-menu,
+.label-menu {
+  display: none;
+}
+
+.label-menu {
+    display: flex;
+    cursor: pointer;
+    right: 3px;
+    margin: 2vw;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  .label-menu span {
+    width: 45px;
+    position: fixed;
+    right: 3em;
+    display: block;
+    height: 6px;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+  }
+
+  .label-menu p {
+    position: fixed;
+    right: 11em;
+    top: 6vh;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 10px;
+  }
+
+  .label-menu span:nth-child(1){
+    background-color: #B22D47;
+  }
+
+  .label-menu span:nth-child(2){
+    margin-top: -15px;
+    background-color: #930F32;
+  }
+
+  .label-menu span:nth-child(3) {
+    margin-top: 15px;
+    background-color: #840F28;
+  }
+
+  .menu {
+    right:-100vw;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #022328;
+    background-size: cover;
+    z-index: 99999;
+    display: flex;
+    -webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-ms-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+  }
+  .menu ul {
+    width: 100%;
+  }
+
+  .menu ul li {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 3em;
+  }
+
+  .menu ul li a:hover {
+    border-bottom: 5px solid #930F32;
+    -webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-ms-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+  }
+
+  #display-menu:checked ~ .menu {
+    right: 0;
+
+  }
+  #display-menu:checked ~ .label-menu span:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  #display-menu:checked ~ .label-menu span:nth-child(2) {
+    opacity: 0;
+  }
+  #display-menu:checked ~ .label-menu span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 69px;
+  }
+}
