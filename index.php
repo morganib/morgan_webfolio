@@ -2,7 +2,7 @@
 	<html>
 
 			<head>
-				<title>Webfolio morgan</title>
+				<title>Page d'acceuil du Webfolio de Morgan Blanc</title>
 				<meta charset="utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 				<meta name="description" content="Webfolio de morgan blanc"/>
@@ -20,16 +20,16 @@
 				<div class="icon--menu">
 					<ul>
 
-						<li><img src="images/red-f.png" alt="logo mon travail" width="40"/></li>
-						<li><img src="images/red-inst.png" alt="logo mon travail" width="40"/></li>
-						<li><img src="images/red-in.png" alt="logo mon travail" width="40"/></li>
+						<li><a href="https://www.facebook.com/Morgan.B.White" target="_blank"><img src="images/red-f.png" alt ="logo mon travail" width="40"/></a></li>
+						<li><a href="https://www.instagram.com/morgan.ib/?hl=fr" target="_blank"><img src="images/red-inst.png" alt="logo mon travail" width="40"/></a></li>
+						<li><a href="https://www.linkedin.com/in/morgan-blanc-ab1701a9/" target="_blank"><img src="images/red-in.png" alt="logo mon travail" width="40"/></a></li>
 
 					</ul>
 				</div>
 
         <div class="page page__home">
 					<div class="logo-title">
-						<img src="images/title-logo.svg" alt="Logo Morgan Webfolio" width="300"/>
+						<img src="images/title-logo.svg" alt="Logo Morgan Webfolio"/>
 					</div>
 				</div>
 

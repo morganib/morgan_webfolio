@@ -2,6 +2,7 @@
 	<html>
 
 			<head>
+				<title>Pages regroupants les travaux graphiques et design de morgan blanc</title>
 				<link rel="stylesheet" type="text/css" href="css/global.css" />
 			</head>
 		<body>

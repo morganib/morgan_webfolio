@@ -7,12 +7,6 @@
 .deco--contact--right,
 .deco--contact--left,
 .deco--work--left,
-.deco--print--1,
-.deco--print--2,
-.deco--print--3,
-.deco--print--4,
-.deco--print--5,
-.deco--print--6,
 .deco--left--home {
   content: "";
 	background-color: #84102C;
@@ -23,13 +17,7 @@
 .deco--contact--circle,
 .deco--work--left,
 .deco--work--dot,
-.deco--work--right,
-.deco--print--1,
-.deco--print--2,
-.deco--print--3,
-.deco--print--4,
-.deco--print--5,
-.deco--print--6 {
+.deco--work--right {
 		position: absolute;
 }
 
@@ -110,41 +98,4 @@
 	border-radius: 50%;
 	border: 3px solid #84102C;
 	left: 35%;
-}
-
-.deco--print--1,
-.deco--print--2,
-.deco--print--3,
-.deco--print--4,
-.deco--print--5,
-.deco--print--6 {
-	width: 24vw;
-	height: 0.2vh;
-}
-
-.deco--print--1,
-.deco--print--2,
-.deco--print--3 {
-	left: 0;
-}
-
-.deco--print--4,
-.deco--print--5,
-.deco--print--6 {
-	right: 0;
-}
-
-.deco--print--1,
-.deco--print--4 {
-	top: 20em;
-}
-
-.deco--print--2,
-.deco--print--5{
-	top: 36.5em;
-}
-
-.deco--print--3,
-.deco--print--6{
-	top: 53em;
 }

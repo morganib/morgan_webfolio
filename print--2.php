@@ -2,6 +2,7 @@
 	<html>
 
 			<head>
+				<title>Oeuvre de Morgan Blanc Print numero 2</title>
 				<link rel="stylesheet" type="text/css" href="css/global.css" />
 			</head>
 		<body>
@@ -14,8 +15,8 @@
 
 
 				<div class="wrap-oeuvre">
-					<img src="images/xp1.png" alt="photo de romeo elvis" width="300" />
-					<img src="images/xp2.png" alt="photo de romeo elvis" width="300" />
+					<img src="images/xp1.png" alt="logo d'exprime ton talent" width="300" />
+					<img src="images/xp2.png" alt="logo d'exprime ton talent" width="300" />
 				</div>
 
 				<div class="skills">

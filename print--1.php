@@ -2,6 +2,7 @@
 	<html>
 
 			<head>
+				<title>Oeuvre de Morgan Blanc Print numero 1</title>
 				<link rel="stylesheet" type="text/css" href="css/global.css" />
 			</head>
 		<body>
@@ -17,7 +18,7 @@
 					<img src="images/romeo1.png" alt="photo de romeo elvis" width="300" />
 					<img src="images/romeo2.png" alt="photo de romeo elvis" width="300" />
 				</div>
-				
+
 				<div class="skills">
 					<ul>
 						<li>Photomontage</li>

@@ -5,9 +5,9 @@
 						<div class="icon--footer">
 							<ul>
 
-								<li><img src="images/instagram-w.png" alt="logo mon travail" width="20"/></li>
-								<li><img src="images/facebook-w.png" alt="logo mon travail" width="20"/></li>
-								<li><img src="images/linkedin-w.png" alt="logo mon travail" width="20"/></li>
+								<li><a href="https://www.instagram.com/morgan.ib/?hl=fr" target="_blank"><img src="images/instagram-w.png" alt="logo mon travail" width="20"/></a></li>
+								<li><a href="https://www.facebook.com/Morgan.B.White" target="_blank"><img src="images/facebook-w.png" alt="logo mon travail" width="20"/></a></li>
+								<li><a href="https://www.linkedin.com/in/morgan-blanc-ab1701a9/" target="_blank"><img src="images/linkedin-w.png" alt="logo mon travail" width="20"/></a></li>
 
 							</ul>
 						</div>
@@ -19,11 +19,11 @@
 								</li>
 
 								<li>
-									<a href="partials/mywork.php" title="mywork"<?php echo($active == "mywork" ? "class='active'" : ""); ?>>my work</a>
+									<a href="mywork.php" title="mywork"<?php echo($active == "mywork" ? "class='active'" : ""); ?>>my work</a>
 								</li>
 
 								<li>
-									 <a href="partials/contact.php" title="contact"<?php echo($active == "mywork" ? "class='active'" : ""); ?>>Contact</a>
+									 <a href="contact.php" title="contact"<?php echo($active == "mywork" ? "class='active'" : ""); ?>>Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -38,6 +38,10 @@
 							<p>
 								07 81 19 03 56
 							</p>
+						</div>
+
+						<div class="logo--foot">
+							<img src="images/morgan-romantically-white.png"  alt="logo morgan blanc" width="150"/>
 						</div>
 					</div>
 

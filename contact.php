@@ -2,6 +2,7 @@
 	<html>
 
 			<head>
+				<title>Page pour contacter la designer Morgan blanc</title>
 				<link rel="stylesheet" type="text/css" href="css/global.css" />
 			</head>
 		<body>
